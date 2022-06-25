@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">  <!--metadados do documento -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Gerador de Senhas,NL github, Gerador de password, Password Generator">
+    <title>Gerador de Password</title>
+    
+    <!-- link que redireciona o estilo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="assets/sim.png" alt="Esqueleto loko">
+    <main class="container-input">
+        <span>Tamanho<span id="valor">123</span> caracteres </span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="5">
+
+        <button id="button" class="botao-cta">Gerar senha</button> <!--cta é Call To Action--> 
+    </main>
+
+    <div id="container-pass" class="container-pass hide">
+        <span class="title">Senha gerada:</span>
+        <span id="password" class="password">12414</span>
+        <span>😃Clique na senha para copiar</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
